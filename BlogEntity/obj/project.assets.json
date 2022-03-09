@@ -5707,11 +5707,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tiago\\dev\\CSharp\\CSharpEntityFrameWork\\BlogEntity\\BlogEntity.csproj",
+      "projectUniqueName": "C:\\Users\\tiago\\dev\\CSharp\\CSharpEntityFramework\\BlogEntity\\BlogEntity.csproj",
       "projectName": "BlogEntity",
-      "projectPath": "C:\\Users\\tiago\\dev\\CSharp\\CSharpEntityFrameWork\\BlogEntity\\BlogEntity.csproj",
+      "projectPath": "C:\\Users\\tiago\\dev\\CSharp\\CSharpEntityFramework\\BlogEntity\\BlogEntity.csproj",
       "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tiago\\dev\\CSharp\\CSharpEntityFrameWork\\BlogEntity\\obj\\",
+      "outputPath": "C:\\Users\\tiago\\dev\\CSharp\\CSharpEntityFramework\\BlogEntity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.14" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models\PostTag.cs" />
+    <Compile Remove="Models\UserRole.cs" />
+  </ItemGroup>
+
 </Project>

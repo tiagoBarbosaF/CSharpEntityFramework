@@ -1,7 +1,15 @@
+using System.Collections.Generic;
+
 namespace BlogEntity.Models
 {
     public class User
     {
+        public User()
+        {
+            Posts = new List<Post>();
+            Roles = new List<Role>();
+        }
+        
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
@@ -9,5 +17,7 @@ namespace BlogEntity.Models
         public string Bio { get; set; }
         public string Image { get; set; }
         public string Slug { get; set; }
+        public List<Post> Posts { get; set; }
+        public List<Role> Roles { get; set; }
     }
 }

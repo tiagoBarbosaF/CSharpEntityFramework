@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p5hnzFtdV8ao4wbI2SHqRZnyu64AbPemyrS/WxGnRyeDZs9IgTAGToMi0GamNbxpQ4Zd2fjuN3IrCOAIK3kRzQ==",
+  "dgSpecHash": "RbU2S1faoxrBRJ1b2AgsW/Z25fJikhd123avvdSaYe/OhnVy9gxIP6u3TpCN/CCCdSdKhFd91khOcOysY7BTOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tiago\\dev\\CSharp\\CSharpEntityFrameWork\\BlogEntity\\BlogEntity.csproj",
+  "projectFilePath": "C:\\Users\\tiago\\dev\\CSharp\\CSharpEntityFramework\\BlogEntity\\BlogEntity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tiago\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\tiago\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
