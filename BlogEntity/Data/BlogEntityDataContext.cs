@@ -15,7 +15,7 @@ namespace BlogEntity.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder options) =>
             options.UseSqlServer(
-                "Server=localhost,1433;Database=BlogEntity;User ID=sa;Password=S4k0r400;TrustServerCertificate=True ");
+                "Server=localhost,1433;Database=BlogFluentEntity;User ID=sa;Password=S4k0r400;TrustServerCertificate=True ");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

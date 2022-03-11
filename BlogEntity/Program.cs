@@ -10,8 +10,19 @@ namespace BlogEntity
     {
         static void Main(string[] args)
         {
-            using var context = new BlogEntityDataContext();
-
+            // var user = new User
+            // {
+            //     Name = "Tiago Barbosa",
+            //     Email = "tiago@gmail.com",
+            //     Bio = "Developer",
+            //     Slug = "tiago-barbosa",
+            //     Image = "https://",
+            //     GitHub = "tiagoBarbosaF",
+            //     PasswordHash = "123456"
+            // };
+            // using var context = new BlogEntityDataContext();
+            // context.Users.Add(user);
+            // context.SaveChanges();
             // context.Users.Add(new User
             // {
             //     Name = "Tiago Barbosa",
@@ -23,23 +34,23 @@ namespace BlogEntity
             // });
             // context.SaveChanges();
 
-            var user = context.Users.FirstOrDefault();
-            var post = new Post
-            {
-                Author = user,
-                Body = "Meu novo artigo",
-                Category = new Category
-                {
-                    Name = "Backend",
-                    Slug = "backend"
-                },
-                Summary = "Vamos conferir como se ...",
-                Slug = "meu-novo-artigo",
-                Title = "Meu novo artigo",
-                CreateDate = DateTime.Now
-            };
-            context.Posts.Add(post);
-            context.SaveChanges();
+            // var user = context.Users.FirstOrDefault();
+            // var post = new Post
+            // {
+            //     Author = user,
+            //     Body = "Meu novo artigo",
+            //     Category = new Category
+            //     {
+            //         Name = "Backend",
+            //         Slug = "backend"
+            //     },
+            //     Summary = "Vamos conferir como se ...",
+            //     Slug = "meu-novo-artigo",
+            //     Title = "Meu novo artigo",
+            //     CreateDate = DateTime.Now
+            // };
+            // context.Posts.Add(post);
+            // context.SaveChanges();
 
             // Utilizando Data annotations
             /*var user = new User

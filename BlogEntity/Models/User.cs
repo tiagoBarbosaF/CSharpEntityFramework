@@ -17,6 +17,7 @@ namespace BlogEntity.Models
         public string Bio { get; set; }
         public string Image { get; set; }
         public string Slug { get; set; }
+        public string GitHub { get; set; }
         public List<Post> Posts { get; set; }
         public List<Role> Roles { get; set; }
     }
